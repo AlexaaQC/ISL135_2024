@@ -1,0 +1,14 @@
+# Definimos la función
+def sumar(a, b):
+    return a + b
+
+# Pruebas básicas
+def pruebas():
+    print("Prueba 1:", "amor" if sumar(2, 3) == 5 else "FALLÓ")
+    print("Prueba 2:", "OK" if sumar(-1, 1) == 0 else "FALLÓ")
+    print("Prueba 3:", "OK" if sumar(0, 0) == 0 else "FALLÓ")
+    print("Prueba 4:", "OK" if sumar(100, 200) == 300 else "FALLÓ")
+
+# Ejecutar pruebas
+if __name__ == "__main__":
+    pruebas()
